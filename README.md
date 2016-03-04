@@ -50,7 +50,7 @@ $ npm start
 # Quick Start by Docker(not yet already)
 get docker-compose file
 ```bash
-$ $ mkdir -p /home/docker/compose/basic-express-react-framework
+$ mkdir -p /home/docker/compose/basic-express-react-framework
 $ wget https://raw.githubusercontent.com/vincentlinsanity/basic-express-react-framework/master/docker-compose.yml
 ```
 
