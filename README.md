@@ -150,3 +150,30 @@ Helper JavaScript utilities.
 
 * xml2js	
 For parsing XML response from EVE Online API.
+
+#Gulp Task Description
+##http://www.sitepoint.com/introduction-gulp-js/
+* vendor	
+Concatenates all JS libraries into one file.
+
+* browserify-vendor	
+For performance reasons, NPM modules specified in the dependencies array are compiled and bundled separately. As a result, bundle.js recompiles a few hundred milliseconds faster.
+
+* browserify	
+Compiles and bundles just the app files, without any external modules like react and react-router.
+
+* browserify-watch	
+Essentially 
+the same task as above but it will also listen for changes and re-compile bundle.js.
+
+* styles	
+Compiles LESS stylesheets and automatically adds browser prefixes if necessary.
+
+* watch	
+Re-compiles LESS stylesheets on file changes.
+
+* default	
+Runs all of the above tasks and starts watching for file changes.
+
+* build	
+Runs all of the above tasks then exits.
