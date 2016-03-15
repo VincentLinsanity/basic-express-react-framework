@@ -14,8 +14,8 @@ Current Version: 0.0.0
 # Pre Requirement
 - Nodejs
 - Bower
-- nodemon
-- gulp
+- Nodemon
+- Gulp
 - MongoDB
 
 If you are not start by docker, then you need to install nodejs first, 
